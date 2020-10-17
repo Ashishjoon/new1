@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+body{
+	margin: 0;
+	font-family: 'open sans',sans-serif;
+	font-size: 18px;
+	color:#ff9933;
+	text-align: center;
+	overflow: auto;
+}
+img{
+	max-width: 100%
+}
+#callout {
+	width: 100%;
+	background: #ffff99;
+	height: auto;
+	overflow: hidden;
+}
+#callout p{
+	text-align: right;
+	padding-right: 2%;
+}
+nav ul{
+	list-style: none; 
+	margin: 0;
+	padding-left: 50px;
+
+}
+nav ul li{
+	float: left;
+	width: 15%;
+	
+	
+}
+nav ul li a{
+	font-weight: 700;
+	text-decoration: none;
+	color: #6b6b47;
+	display: block;
+	padding: 4% 10%;
+
+}
+nav ul li a:hover,nav ul li.active a{
+	background-color: black;
+	color: #ff6600;
+	transition-duration: 700ms;
+}
+.banner{
+	padding-bottom: 2%;
+}
+#heading h1{
+	color: black;
+	text-shadow: 2px 2px #444;
+}
+
+header{
+
+}
+
+.left-col{
+	width: 55%;
+	float: left;
+	padding: 1%;
+}
+.sidebar{
+	width: 40%;
+	float: right;
+	padding: 1%;
+	transition-duration: 1s;
+}
+.clearfix{
+	clear: both;
+}
+footer{
+	width: 100%;
+	color: #ffff99;
+}
+
+.social{
+	font-size: 400%;
+}
+.social a{
+	color: #0099ff;
+	padding: 4%;
+}
+.social a:hover{
+	color: #d5d5d5;
+}
+@media (max-width: 768px) {
+	nav ul{
+		padding-left: 0;
+	}
+	nav ul li{
+		width: 100%;
+		border-left: 0;
+		border-right: 0;
+	}
+	nav ul li a{
+		padding: 8px 0;
+		font-size: 16px;
+	}
+	
+	.one-third{
+		width: 100%;
+		padding: 0;
+	}
+	.one-third p{
+		padding:0 50px;
+	
+	}
+	.social{
+		font-size: 20pt;
+	}
+	p{
+		font-size: 15px;
+	}
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+body{
+	margin: 0;
+	font-family: 'open sans',sans-serif;
+	font-size: 18px;
+	color:#444;
+	text-align: center;
+	overflow: auto;
+}
+img{
+	max-width: 100%
+}
+#callout {
+	width: 100%;
+	background-color:#666699;
+	height: auto;
+	overflow: hidden;
+}
+#callout p{
+	text-align: right;
+	font-size: 14px;
+	color: #fff;
+	padding-right: 4%;
+}
+
+nav ul{
+	list-style: none; 
+	margin: 0;
+	padding-left: 50px;
+}
+nav ul li{
+	float: left;
+	width: 15%;
+	
+	
+}
+nav ul li a{
+	font-weight: 700;
+	text-decoration: none;
+	color: #400;
+	display: block;
+	padding: 5% 12%;
+}
+nav ul li a:hover,nav ul li.active a{
+	background-color: #0000cc;
+	color: #ff6600;
+	transition-duration: 700ms;
+}
+.banner{
+	padding-bottom: 2%;
+}
+#heading h1{
+
+	text-shadow: 2px 2px #444;
+}
+header{
+
+}
+
+.one-third{
+	width: 29%;
+	float: left;
+	padding: 2%;
+	transition-duration: 1s;
+}
+
+.clearfix{
+	clear: both;
+}
+footer{
+	background: #666699;
+	width: 100%;
+	padding: 3% 0 3%;
+}
+footer h2{
+	color: black;
+}
+.social{
+	font-size: 200%;
+}
+.social a{
+	color: #fff;
+	padding: 4%;
+}
+.social a:hover{
+	color: #d5d5d5;
+}
+@media (max-width: 768px) {
+	nav ul{
+		padding-left: 0;
+	}
+	nav ul li{
+		width: 100%;
+		border-left: 0;
+		border-right: 0;
+	}
+	nav ul li a{
+		padding: 8px 0;
+		font-size: 16px;
+	}
+	
+	.left-col{
+		width: 100%;
+		padding: 0;
+	}
+
+	.sidebar{
+		width: 100%;
+		padding: 0;
+	}
+	.social{
+		font-size: 20pt;
+	}
+	p{
+		font-size: 15px;
+	}
+}
